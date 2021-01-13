@@ -2,6 +2,7 @@
 
 <head>
   <meta charset="utf-8" />
+  <link rel="shortcut icon" href="icone.ico" />
   <title>Biblioteca Digital</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <style>
@@ -33,12 +34,12 @@
             Login
           </div>
           <div class="card-body">
-            <!--<form action="login.php">-->
-            <form action="login.php" method="post">
 
+            <form action="login.php" method="post">
               <div class="form-group">
                 <input name="email" type="email" class="form-control" placeholder="E-mail">
               </div>
+
               <div class="form-group">
                 <input name="senha" type="password" class="form-control" placeholder="Senha">
               </div>
@@ -47,10 +48,16 @@
                   Usuário ou senha inválido(s)
                 </div>
               <?php } ?>
+              <?php if (isset($_GET['login']) &&  $_GET['login'] == 'erro2') { ?>
+                <div class="text-danger">
+                  Para acessar é preciso se autenticar.
+                </div>
+              <?php } ?>
 
-              <button class="waves-effect waves-light btn-large blue lighten-3" type="submit">Entrar</button>
 
-              <!--<button class="btn btn-lg btn-info btn-block blue lighten-3" type="submit">Entrar</button>-->
+              <button class="waves-effect waves-light btn-large blue lighten-3" type="submit">Cadastrar</button>
+
+
             </form>
           </div>
         </div>

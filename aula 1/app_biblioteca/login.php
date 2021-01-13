@@ -1,12 +1,15 @@
 <?php
 $usuario_auten = false;
-/* método GET
+
+
+/*método GET
 print_r($_GET);
 echo '<br/>';
 echo $_GET['email'];
 echo '<br/>';
 echo $_GET['senha'];
 */
+
 
 
 
