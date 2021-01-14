@@ -1,0 +1,5 @@
+Ionic 4#Mobile
+Turbine seu CSS#Front-end
+A Jornada do empreendedor#Business
+MongoDB#Infraestrutura
+User Experience Design#Design e UX
