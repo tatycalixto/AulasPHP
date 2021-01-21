@@ -1,0 +1,11 @@
+[x] Fazer cadastro e adicionar em um arquivo txt
+[x] modificar o login pra pegar do arquivo de cadastro
+[x] Mensagem para usuário se senha ou e-mail incorretos
+[x] adicionar sessão
+[x] validar sessão
+[x] Mensagem para usuário se tentar entrar na área que precisa 
+está autenticado
+[x] destruir sessão
+[x] criar tela para ver histórico de notas
+[x] adicionar alunos cadastrados em um arquivo
+[x] visualizar os alunos cadastrados
