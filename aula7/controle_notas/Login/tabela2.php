@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/tabela2.js"></script>
+</head>
+
+<body>
+  <button id="btnAdicionar">Novo</button>
+  <table id="tblCadastro">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Telefone</th>
+        <th>Email</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</body>
+
+</html>

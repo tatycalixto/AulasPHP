@@ -1,0 +1,12 @@
+[x]Cronograma
+[x] Falar sobre o exercicio (data)
+[x] Mentoria
+[x] modificar linha da tabela histórico notas
+[ ] fazer um update na tabela para salvar modificação
+
+
+
+
+
+
+
